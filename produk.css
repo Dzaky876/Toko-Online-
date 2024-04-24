@@ -1,0 +1,108 @@
+/* Gaya dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+   /* Gaya header */
+   header {
+    background-color: #1a1919;
+    color: #fff;
+    padding: 20px;
+  }
+  
+   /* Gaya navigasi */
+   nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fcf7f7;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+  }
+
+  /* Gaya seksi produk */
+  section#produk {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  section#produk h2 {
+    margin-bottom: 20px;
+    color: #0f0f0f;
+  }
+  
+  .produk-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .produk {
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .produk img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .produk h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .produk p {
+    margin-bottom: 10px;
+  }
+  
+  /* Gaya seksi keranjang */
+  section#keranjang {
+    background-color:rgba(249, 249, 250, 0.002);
+    padding: 90px;
+    text-align: center;
+    height: max-content;
+  }
+  
+  section#keranjang h2 {
+    margin-bottom: 30px;
+    color: #090909;
+  }
+  
+  #keranjang-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #keranjang-list li {
+    margin-bottom: 15px;
+  }
+  
+  #total-harga {
+    font-weight: bold;
+    color: #070707;
+  }
+ 
+  

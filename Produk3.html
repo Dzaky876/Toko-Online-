@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Toko Online</title>
+  <link rel="stylesheet" type="text/css" href="produk.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <center>
+        <li><a href="tampilan.html">Beranda</a></li>
+        <li><a href="#">Produk</a></li>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="kontak.html">Profil</a></li>
+    </center>
+      </ul>
+    </nav>
+  </header>
+  <section id="home">
+    <h2>Gambar dibawah adalah makanan yang kami Jual</h2>
+  </section>
+
+  <section id="produk">
+    <h2>Produk Terkini</h2>
+    <div class="produk-container">
+      <div class="produk">
+        <img src="frenfrise.jpeg" alt="Produk 1">
+        <h3>FrenFrise</h3>
+        <p>Harga: Rp.10.000</p>
+        <button onclick="tambahKeKeranjang('Produk 1', 10.000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="produk">
+        <img src="onionrings.jpeg" alt="Produk 2">
+        <h3>onionrings</h3>
+        <p>Harga: Rp.12.000</p>
+        <button onclick="tambahKeKeranjang('Produk 2', 12.000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="produk">
+        <img src="sosis.jpeg" alt="Produk 3">
+        <h3>sosis goreng,bakar</h3>
+        <p>Harga: Rp.15.000</p>
+        <button onclick="tambahKeKeranjang('Produk 3', 15.000)">Tambah ke Keranjang</button>
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="keranjang">
+    <a href="produk.html"><button>kembali ke menu awal</button></a>
+    <h2>Pesanan yang anda</h2>
+    <ul id="keranjang-list"></ul>
+    <p id="total-harga">Total Harga: $0</p>
+    <a href="#"><button>Beli</button></a>
+  </section>
+
+  <script src="produk.js"></script>
+</body>
+</html>

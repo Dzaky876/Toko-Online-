@@ -1,0 +1,106 @@
+/* Gaya dasar */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Gaya header */
+header {
+  background-color: #1a1919;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Gaya navigasi */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+  /* Gaya hero section */
+  .hero {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 42px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+  }
+  
+  /* Gaya produk section */
+  .produk {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .produk h2 {
+    margin-bottom: 30px;
+  }
+  
+  .produk-item {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .produk-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .produk-item h3 {
+    margin-top: 10px;
+  }
+  
+  /* Gaya tentang kami section */
+  .tentang-kami {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .tentang-kami h2 {
+    margin-bottom: 30px;
+  }
+  
+  /* Gaya footer */
+ 
+  

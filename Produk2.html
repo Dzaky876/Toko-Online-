@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Toko Online</title>
+  <link rel="stylesheet" type="text/css" href="produk.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <center>
+        <li><a href="tampilan.html">Beranda</a></li>
+        <li><a href="#">Produk</a></li>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="kontak.html">Profil</a></li>
+    </center>
+      </ul>
+    </nav>
+  </header>
+  <section id="home">
+    <h2>Gambar dibawah adalah makanan yang kami Jual</h2>
+  </section>
+
+  <section id="produk">
+    <h2>Produk Terkini</h2>
+    <div class="produk-container">
+      <div class="produk">
+        <img src="es cola.jpeg" alt="Produk 1">
+        <h3>Es Cola</h3>
+        <p>Harga: Rp.5.000</p>
+        <button onclick="tambahKeKeranjang('Produk 1', 5.000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="produk">
+        <img src="ez teh.jpeg" alt="Produk 2">
+        <h3>Ez Teh Manis/Tawar</h3>
+        <p>Harga: Rp.3.000</p>
+        <button onclick="tambahKeKeranjang('Produk 2', 3.000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="produk">
+        <img src="rice.jpg" alt="Produk 3">
+        <h3>Rice</h3>
+        <p>Harga: Rp.5.000</p>
+        <button onclick="tambahKeKeranjang('Produk 3', 5.000)">Tambah ke Keranjang</button>
+        <a href=""><button></button></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="keranjang">
+    <a href="Produk3.html"><button>masuk slide selanjutnya</button></a>
+    <h2>Pesanan yang anda</h2>
+    <ul id="keranjang-list"></ul>
+    <p id="total-harga">Total Harga: $0</p>
+    <a href="#"><button>Beli</button></a>
+  </section>
+
+  <script src="produk.js"></script>
+</body>
+</html>

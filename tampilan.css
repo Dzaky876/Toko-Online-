@@ -1,0 +1,79 @@
+/* Gaya dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Gaya header */
+  header {
+    background-color: #1a1919;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Gaya navigasi */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Gaya seksi */
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+  }
+  .produk {
+    text-align: center;
+    padding: 20px;
+    height: 40px;
+  }
+  
+  .produk h2 {
+    margin-bottom: 30px;
+  }
+  
+  .produk-item {
+    display: inline-block;
+    text-align: center;
+    margin: 60px;
+  }
+  
+  .produk-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .produk-item h3 {
+    margin-top: 10px;
+  }
+  
+  
+  /* Gaya footer */
+  footer {
+    background-color: #0f0f0f;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
